@@ -12,7 +12,7 @@ mongoose.connect('mongodb+srv://jin:qwe123@boilerplate.s1ylr.mongodb.net/myFirst
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!~ 는 개뿔 어렵구만')
+  res.send('Hello World!~')
 })
 
 app.listen(port, () => {
