@@ -19,7 +19,7 @@ mongoose.connect(config.mongoURI, {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!~')
+  res.send('Hello World~!')
 })
 
 //회원가입
