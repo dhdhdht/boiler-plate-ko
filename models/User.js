@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const bcrypt = require('bcrypt');
-const saltRounds = 10
+const saltRounds = 10   //비밀번호가 몇줄 
 const jwt = require('jsonwebtoken');
 
 
